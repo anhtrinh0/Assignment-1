@@ -4,12 +4,17 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  background: url("background.jpg") no-repeat center;
+  background-size: cover;
+
 }
 
 
 nav{
   margin: auto;
   padding: 20px 0;
+  border-bottom: 2px solid white ;
+
 }
 
 nav ul li{
@@ -38,4 +43,17 @@ nav a:hover{
 .container{
   width:50%;
   margin:auto;
+}
+p{
+  font-family: Merriweather;
+  font-size: 25px;
+}
+
+h1{
+  font-family: Merriweather;
+  padding-top: 100px;
+}
+img{
+  margin-top: 50px;
+  border-radius: 10px;
 }
